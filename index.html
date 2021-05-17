@@ -8,40 +8,52 @@
   
   <title>Frontend Mentor | Stats preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+<link rel="stylesheet" href="css/main.css">
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; text-align: center; margin-top:30px;
+    background:hsl(244, 38%, 16%);
+    color:#fff;
+  height:50px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+      }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
-  <div class="container">
+  <div class="card">
     
 
-<div class="stats-content">
-   <h1 class="stats-heading">  Get <span>insights</span> that help your business grow.</h1>
+<div class="card-content">
+   <h1 class="card-heading">  Get <span class="hightlight">insights</span> that help your business grow.</h1>
 
-<p class="stats-disc">
+<p class="card-disc">
   Discover the benefits of data analytics and make better decisions regarding revenue, customer 
   experience, and overall efficiency.
 </p>
 <div class="stats">
   <p>
-     <span class="stat">10k+</span> companies
+     <span class="stat">10k+</span><span class="stat-text">companies</span>
   </p>
   <p>
-     <span class="stat">314+</span> templates
+     <span class="stat">314+</span><span class="stat-text">templates</span>
   </p>
   <p>
-     <span class="stat">12m+</span> queries
+     <span class="stat">12m+</span><span class="stat-text">queries</span>
   </p>
  
   </div>
 
 </div>
-<div class="stats-image">
-  <img src="images/image-header-desktop.jpg" alt="">
+<div class="card-image">
+  <!-- <img src="images/image-header-desktop.jpg" alt="women using laptop" class="desktop-header-img"> -->
+  <div class="card-image-overlay"></div>
 </div>
   </div>
   <div class="attribution">
