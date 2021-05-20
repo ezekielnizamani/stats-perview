@@ -28,7 +28,7 @@ margin-top:250px;
 background:var(--dark-desturated);
 color:#fff;
 display:flex;
-
+height:500px;
 justify-content:space-between;
 }
 .card-content{
